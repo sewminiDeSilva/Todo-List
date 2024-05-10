@@ -1,0 +1,101 @@
+/* Base styles */
+.todo {
+  background-color: #282c34;
+  /* Dark grayish blue background color */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto;
+  /* Center the to-do list on the screen with 50px top and bottom margins */
+}
+
+/* Existing CSS styles */
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.todo-header div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* Task adding section styles */
+.todo-add {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #e0e0e0;
+  /* Light gray background color for input field */
+}
+
+.todo-add-btn {
+  background-color: #ff6739;
+  /* Teal blue color for add button */
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Task list styles */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Task item styles */
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #3e444c;
+  /* Dark blue background color for task items */
+  color: white;
+  /* White text color for task items */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todo-items-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todo-items-text {
+  margin-left: 10px;
+  /* Text decoration for completed tasks is not styled in the image */
+}
+
+.todo-items-container img {
+  width: 24px;
+  height: 24px;
+
+}
+
+/* Placeholder styles for images */
+/* .cross-icon img {
+
+} */
+
+/* Styling the cross icon */
+.todo-items img {
+  cursor: pointer;
+}
